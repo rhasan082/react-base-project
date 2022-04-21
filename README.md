@@ -1,11 +1,17 @@
 Project Dependency:
 
 1. Node JS >= 17.0
-2. Visual Studio Code Editor
-3. VS Code plugins
-   - ESLint
-   - Prettier
-   - Tailwind CSS IntelliSense
+2. TypeScript
+3. ESLint
+4. Jest
+5. Tailwind CSS
+6. Visual Studio Code Editor
+   - VS Code plugins
+      - ESLint
+      - Prettier
+      - Tailwind CSS IntelliSense
+      - Jest
+      - Live Server
 
 ---
 
