@@ -22,3 +22,10 @@ CI/CD script running order:
 3. lint (check for other JS issues)
 4. test (check for unit testing)
 5. build
+
+---
+TODO
+1. Add Layout Support
+2. Add multiple theme support
+3. Add multiple language support
+4. Add Redux support (optional)
