@@ -6,15 +6,20 @@
   "scripts": {
     "dev": "parcel src/index.html",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
-    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet"
+    "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\" --quiet"
   },
   "author": "Rakibul Hasan<rhasan082@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@babel/plugin-proposal-class-properties": "7.16.7",
     "@tailwindcss/forms": "^0.5.0",
+    "@types/react": "^18.0.5",
+    "@types/react-dom": "^18.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.20.0",
+    "@typescript-eslint/parser": "^5.20.0",
     "eslint": "8.8.0",
     "eslint-config-prettier": "8.3.0",
+    "eslint-import-resolver-typescript": "^2.7.1",
     "eslint-plugin-import": "2.25.4",
     "eslint-plugin-jsx-a11y": "^6.5.1",
     "eslint-plugin-react": "^7.28.0",
@@ -22,7 +27,8 @@
     "parcel": "2.2.1",
     "postcss": "^8.4.12",
     "prettier": "2.5.1",
-    "tailwindcss": "^3.0.24"
+    "tailwindcss": "^3.0.24",
+    "typescript": "^4.6.3"
   },
   "dependencies": {
     "react": "17.0.2",
